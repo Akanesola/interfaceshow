@@ -1,0 +1,154 @@
+body {
+  background-color: #f5f5f5;
+}
+
+#inter-content {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  top: 2em;
+}
+
+#inter-content-pcjm {
+  position: relative;
+  width: 680px;
+  margin: 0 auto;
+  top: 2em;
+}
+
+.imgmb {
+  width: 258px;
+  height: 520px;
+  padding: 42px 7px 35px;
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background: url(../images/iphone7-silver.png) center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+
+.imgmb div {
+  width: 238px;
+  height: 461px;
+  overflow: hidden;
+  margin: 25px 0 0 10px;
+}
+
+.pcjmshow {
+  position: relative;
+  padding-top: 26em;
+  margin: 0 -10px 340px -10px;
+}
+
+.pcjmshow article {
+  margin-top: 150px;
+}
+
+.pcjmshow article p {
+  font-size: 14px;
+  color: #bdbdbd;
+  display: inline;
+}
+
+.pcjmshow article:before {
+  content: "^";
+  color: #e83535;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+.pcjmshow a {
+  width: 700px;
+  height: 562px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: url(../images/imac.png) center no-repeat;
+}
+
+.pcjmshow div {
+  width: 642px;
+  height: 360px;
+  overflow: hidden;
+  margin: 30px 0 0 30px;
+}
+
+.pcjmshow span, .imgmb span {
+  display: block;
+  position: relative;
+  top: 0px;
+}
+
+
+#jm1 {
+  top: 1em;
+}
+
+#jm2 {
+  top: 1em;
+  left: 44em;
+}
+
+.jmshow {
+  position: relative;
+}
+
+.jmshow p {
+  position: relative;
+  top: 630px;
+  font-size: 14px;
+  color: #bdbdbd;
+  display: inline;
+}
+
+.jmshow p:before {
+  content: "^";
+  color: #e83535;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+.jmshow p.intro-right {
+  margin-left: 512px;
+}
+
+.jmpart2 {
+  top: 48em;
+}
+
+
+#button {
+  position:fixed;
+  margin:auto;
+  left:0;
+  right:0;
+  top:12px;
+  width:168px;
+  height:30px;
+}
+
+.btn2 {
+  margin-left: 16px;
+}
+
+.btn {
+  border: 0;
+  background-color: #f5f5f5;
+  padding: 6px 16px;
+  border-radius: 2px;
+  box-shadow: 0 0 8px 0px #bdbdbd;
+}
+
+button:hover {
+  background-color: #fda668;
+  box-shadow: none;
+  color: #fff;
+}

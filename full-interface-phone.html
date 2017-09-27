@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" ;content="IE=edge, chrome=1">
+  <title>Interface Full For Phone</title>
+  <meta name="keywords" content="interface" />
+  <meta name="description" content="interface" />
+  <link rel="stylesheet" href="css/interfacefull.css" />
+  <!--[if lt IE 9]>
+　　<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+　<![endif]-->
+</head>
+<body>
+<section id="inter-content">
+  <div class="jmshow">
+    <a href="javascript:volid(0);" class="imgmb" id="jm1" target="_blank">
+      <div>
+        <span>
+          <img class="cover-image" src="images/phone/1501577553.png" alt="界面">  <!-- 这里修改图片文件名称 -->
+        </span>
+      </div>
+    </a>
+    <p>这是一段上面界面的简介内容！</p>
+    <a href="javascript:volid(0);" class="imgmb" id="jm2" target="_blank">
+      <div>
+        <span>
+          <img class="cover-image" src="images/phone/1498207082.png" alt="界面">  <!-- 这里修改图片文件名称 -->
+        </span>
+      </div>
+    </a>
+    <p class="intro-right">这是一段上面界面的简介内容！</p>
+  </div>
+
+  <div class="jmshow jmpart2">
+    <a href="javascript:volid(0);" class="imgmb" id="jm1" target="_blank">
+      <div>
+        <span>
+          <img class="cover-image" src="images/phone/1501577553.png" alt="界面">  <!-- 这里修改图片文件名称 -->
+        </span>
+      </div>
+    </a>
+    <p>这是一段上面界面的简介内容！</p>
+    <a href="javascript:volid(0);" class="imgmb" id="jm2" target="_blank">
+      <div>
+        <span>
+          <img class="cover-image" src="images/phone/1498207082.png" alt="界面">  <!-- 这里修改图片文件名称 -->
+        </span>
+      </div>
+    </a>
+    <p class="intro-right">这是一段上面界面的简介内容！</p>
+  </div>
+
+</section>
+
+<footer id="button">
+  <button class="btn btn1">银白色</button>
+  <button class="btn btn2">深空灰</button>
+</footer>
+
+
+<!-- JavaScript -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/application.js"></script>
+<script type="text/javascript">
+  $(function() {
+    //图片hover上下滚动
+    autoScro('.pcjmshow, .imgmb div', 'img');
+
+    //切换mockup模型
+    $(".btn1").click(function(){
+      $(".imgmb").css("backgroundImage","url(images/iphone7-silver.png)");
+    });
+    $(".btn2").click(function(){
+      $(".imgmb").css("backgroundImage","url(images/iphone7-black.png)");
+    });
+  })
+</script>
+
+</body>
+</html>
